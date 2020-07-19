@@ -1,0 +1,28 @@
+.todos_container {
+    position: relative;
+    top: 200px;
+    margin-bottom: 10px;
+}
+.todos_container .title {
+    width: 100%;
+    background-color: #BFC5D6;
+    padding: 10px 0;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.todos_container .title span {
+    width: 30%;
+    display: block;
+    margin-left: 10px;
+}
+.todos_container .title span:nth-child(1) {
+    width: 60%;
+}
+.editable-row .ant-form-item-explain {
+    position: absolute;
+    top: 100%;
+    font-size: 12px;
+}
