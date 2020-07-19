@@ -24,7 +24,7 @@ export const theReducer = (state, action) => {
             newState.todos.forEach((item) => {
                 if(parseInt(item.id) === parseInt(action.index)) {
                     item.text = action.val;
-                    item.state = action.state;
+                    item.state = action.state ? action.state : item.state;
                 }
             })
             break;

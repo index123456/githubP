@@ -16,7 +16,7 @@ const EditableCell = ({editing, dataIndex, title, inputType, todo, index, childr
                     rules={[
                         {
                             required: true,
-                            message: `请填写${title}!`,
+                            message: `${title}不能为空!`,
                         },
                     ]}
                 >
